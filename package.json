@@ -1,0 +1,28 @@
+{
+  "name": "smart-restaurant",
+  "version": "2.0.0",
+  "private": true,
+  "description": "نظام طلب المطعم الذكي — واجهة عميل + لوحة إدارة + خادم REST وقاعدة بيانات SQLite، بلا أي مكتبات خارجية.",
+  "type": "commonjs",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js",
+    "reset": "node server/server.js --reset",
+    "test": "node server/test/api.test.js",
+    "admin": "node server/cli.js admin",
+    "backup": "node server/cli.js backup"
+  },
+  "keywords": [
+    "restaurant",
+    "pos",
+    "sqlite",
+    "node",
+    "arabic",
+    "rtl"
+  ],
+  "license": "MIT"
+}

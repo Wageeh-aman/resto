@@ -1,0 +1,38 @@
+# ============================================================================
+#  ملف تجاهل Git — نظام المطعم الذكي
+# ============================================================================
+
+# البيانات والأسرار (لا تُرفع أبدًا)
+server/data/
+server/.env
+*.env
+!.env.example
+
+# ملفات قاعدة البيانات في أي مكان
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+
+# الصور المرفوعة
+server/data/uploads/
+
+# النسخ الاحتياطية
+*.backup
+backups/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.npm
+
+# النظام والمحرر
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~

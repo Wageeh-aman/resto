@@ -1,0 +1,21 @@
+# ملفات لا تُنسخ داخل صورة Docker
+.git
+.gitignore
+.gitattributes
+node_modules
+npm-debug.log*
+server/data
+server/.env
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.backup
+backups/
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+desktop.ini
+*.md
+!README.md
